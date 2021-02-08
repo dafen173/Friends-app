@@ -1,5 +1,68 @@
 
 
+html {
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/*
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+*/
+
+body {
+    min-width: 425px;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 20px;
+    font-family: "Open Sans", "Arial", sans-serif;
+    background: linear-gradient(to bottom right, #f5f2fd, #bfcbda);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+
+
+/*
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+*/
+
+.aside {
+    background: linear-gradient(to bottom right, #DCDCDC, #808080);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.main {
+    max-width: 1200px;
+    padding: 2rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
 .form__input--search {
     width: 100%;
     border: 0;
@@ -9,7 +72,7 @@
 }
 
 .form__label {
-    margin: 10px 0;
+  /* margin: 10px 0;*/
 }
 
 /*
@@ -21,29 +84,32 @@
 .form__legend {
     color: orange;
     
-    /*align-items: center;  display: inline-flex;   */
+    /*
+    align-items: center;  
+    display: inline-flex;   
+    */
+
     letter-spacing: 0.3rem;
     font-weight: bold;
 }
 
 .form__fieldset {
-    border: none;
+    border: 1px;
     margin: 0 0 15px;
+    padding: 0;
+    
 
+    /*
+    display: flex;
+    align-items: center;  
+    */
 }
 
 
 
 /*
-.form__fieldset {
-    border: none;
-    margin: 0 0 15px;
 
 
-    padding: 0;
-    display: flex;
-    align-items: center;
-}
 
 
 */
